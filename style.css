@@ -1,0 +1,115 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.btn-outline-success {
+  color: chocolate;
+  border: chocolate 1px solid;
+}
+.btn-outline-success:hover {
+  background-color: chocolate;
+  color: #fff;
+  border: 1px solid chocolate;
+}
+
+.hhh-512 {
+  height: 700px;
+}
+
+.carouselWrapper {
+  width: 100%;
+  height: 500px;
+  background-color: #f0f0f0;
+}
+
+.eventMenu {
+  border-bottom: 1px solid #eeeeee;
+  height: 41.5px;
+  display: flex;
+  margin: auto;
+  margin-top: 100px !important;
+  padding-top: 10px;
+  margin-bottom: 50px !important;
+}
+
+.eventMenuBox1 {
+  width: 80%;
+}
+
+.eventMenuBox2 {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.h-auto {
+  height: auto;
+}
+.h-400 {
+  height: 400px;
+}
+.w-1300 {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #eee;
+  color: #5b5b5b;
+}
+
+.first-line {
+  border-bottom: 1px solid #af5510;
+}
+
+.second-line {
+  border-bottom: 1px solid #af5510;
+}
+.second-line a {
+  text-decoration: none;
+  color: #000;
+}
+
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .third-line {
+    display: block;
+    text-align: center;
+  }
+}
+
+.row {
+  margin-bottom: 24px;
+}
+
+.card-text {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+.card-text2 {
+  color: #6a6f77;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.card-body {
+  height: 108px;
+}
